@@ -9,7 +9,7 @@ class MongoDB {
   }
 
   Future<void> _connect() async {
-    final String uri = 'mongodb+srv://akshitk2518:akshitk1927@cluster0.ruiyppc.mongodb.net/?retryWrites=true&w=majority/test';
+    final String uri = 'PLACE THE MONGOURL HERE';
     _db = await Db.create(uri);
     await _db.open();
   }
